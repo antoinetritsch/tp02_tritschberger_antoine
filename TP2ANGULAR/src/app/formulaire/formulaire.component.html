@@ -1,0 +1,11 @@
+<h3>Voici le formulaire !</h3>
+<form>
+    <label>Nom* : <input name="name" [(ngModel)]="user.name" type="text" /></label> <br />
+    <label>Prénom* : <input name="lastname" [(ngModel)]="user.lastname" type="text" /></label><br />
+    <label>Numéro de téléphone* : <input name="phoneNumber" [(ngModel)]="user.phoneNumber" type="tel" /></label><br />
+    <label>Age* : <input name="old" [(ngModel)]="user.old" type="number" /></label><br />
+    
+    <p *ngIf="!user.IsCorrect()" id="error">Erreur de format</p>
+
+    <button (click)="onClick()">Envoyer</button>
+</form>
