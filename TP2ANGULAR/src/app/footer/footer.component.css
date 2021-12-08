@@ -1,0 +1,10 @@
+footer{
+    width:100%;
+    padding:20px;
+    margin:0;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+div{
+    text-align: center;
+}

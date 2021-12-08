@@ -1,5 +1,10 @@
 <h3>Recap du formulaire</h3>
-<p>Nom : {{user.name}}</p>
+<p>Login : {{user.login}}</p>
+<p>Nom : {{user.civilite}} {{user.name}}</p>
 <p>Prénom : {{user.lastname}}</p>
-<p>Numéro de téléphone : {{user.phoneNumber}}</p>
+<p>Numéro de téléphone : {{user.phoneNumber | phoneNumber}}</p>
 <p>Age : {{user.old}}</p>
+<p>Adresse : {{user.address}}</p>
+<p>Code postal : {{user.codePostal}}</p>
+<p>Ville : {{user.city}}</p>
+<p>Pays : {{user.country}}</p>

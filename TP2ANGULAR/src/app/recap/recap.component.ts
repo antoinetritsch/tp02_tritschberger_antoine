@@ -7,7 +7,7 @@ import User from '../User';
   styleUrls: ['./recap.component.css']
 })
 export class RecapComponent implements OnInit {
-  @Input() user  = new User("","",0,0);
+  @Input() user  = new User("","",0,"","",0,"","","","","");
 
   constructor() { }
 

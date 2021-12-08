@@ -9,8 +9,12 @@ import User from './User';
 export class AppComponent {
   title = 'TP2ANGULAR';
 
-  user=new User("","",0,0);
+  
+  user=new User("","",0,"","",0,"","","","","");
   submit(u2:User):void{
     this.user=u2;
+  }
+  reset():void{
+    this.user=new User("","",0,"","",0,"","","","","");
   }
 }
